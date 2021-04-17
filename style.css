@@ -1,0 +1,133 @@
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  color: #f2f2f2;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  background-color: #333;
+}
+
+.dropdown-content a:hover {background-color: red;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  font-size: 50px;
+}
+  
+.header_div {
+  background-color: white;
+  width: 100%;
+  left: 0;
+  margin-top: 70px;
+}
+
+.nav-bar  {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.left-div {
+  float: left;
+  width: 320px;
+  height: 600px;
+  background-color: #ff6666;
+  text-align: center;
+  margin-right: 15px;
+  margin-top: 16px;
+}
+
+.left-div a:hover {
+  color: white;
+}
+
+.left-div a:visited {
+  color: purple;
+}
+
+.left-div a:active {
+  background-color: yellow;
+}
+
+.center-div {
+  float: left;
+  width: 730px;
+  height: 600px;
+  overflow: scroll;
+  background-color: white;
+  margin-top: 16px;
+}
+
+body {
+  background-color: gray;
+}
+
+.right-div{
+  float: left;
+  width: 320px;
+  height: 580px;
+  background-color: #ff751a;
+  margin-left: 15px;
+  margin-top: 16px;
+  padding: 10px;
+}
+
+.image {
+  border: black;
+  border-style: double;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.footer {
+  float: left;
+  background-color: white;
+  margin-top: 20px;
+  width: 100%;
+}
+
